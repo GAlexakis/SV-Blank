@@ -1,0 +1,10 @@
+{
+    "verilog.ctags.path": "C:\\intelFPGA\\ctags\\ctags",
+    "verilog.formatting.verilogFormat.path": "C:\\intelFPGA\\formater\\verilog-format",
+    "verilog.languageServer.hdlChecker.enabled": true,
+    "verilog.languageServer.hdlChecker.path": "hdl_checker",
+    "verilog.linting.linter": "modelsim",
+    "verilog.linting.modelsim.arguments": "-pedanticerrors -qlint",
+    "verilog.linting.path": "C:\\intelFPGA\\20.1\\modelsim_ase\\win32aloem",
+    "verilog.linting.modelsim.work": "${workspaceFolder}\\work"
+}
