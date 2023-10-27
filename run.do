@@ -1,3 +1,3 @@
-do sim.do
+do wave.do
 
 quit -f

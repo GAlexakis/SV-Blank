@@ -1,5 +1,9 @@
-log -r /*
+quit -sim
+file delete -force work
+vlib work
 
-add wave -position end  sim:/top_tb/a
+do compile.do
 
-run -all
+vsim tb -novopt
+
+do  wave.do

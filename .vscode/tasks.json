@@ -9,7 +9,7 @@
             "command": "./run.bat",
             "group": {
                 "kind": "test",
-                "isDefault": true
+                "isDefault": false
             },
             "presentation": {
                 "panel": "shared",
@@ -34,10 +34,10 @@
         {
             "label": "sim",
             "type": "shell",
-            "command": "vsim top_tb -do \"sim.do\"",
+            "command": "./sim.bat",
             "group": {
                 "kind": "test",
-                "isDefault": false
+                "isDefault": true
             },
             "presentation": {
                 "panel": "shared",

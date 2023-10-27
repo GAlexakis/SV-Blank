@@ -1,2 +1,2 @@
-rtl/top.sv
-sim/top_tb.sv
+rtl/*.sv
+sim/*.sv
